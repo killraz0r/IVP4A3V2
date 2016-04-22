@@ -36,6 +36,8 @@ class WinkelPaneel extends JPanel
         bestelling.voegtoe(art1);
         Artikel art2 = new Artikel(2, "webcam", 23.45);
         bestelling.voegtoe(art2);
+         Artikel art3 = new Artikel(3, "horloge", 30.00);
+        bestelling.voegtoe(art3);
         
         factuurVeld = new JTextArea(10, 25);
         
